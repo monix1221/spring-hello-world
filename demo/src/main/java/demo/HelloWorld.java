@@ -2,12 +2,12 @@ package demo;
 
 import org.springframework.stereotype.Component;
 
-/**
- * Created by jt on 3/11/15.
- */
-@Component
+
+@Component // -> it will get registered in Spring Context as Spring Bean
 public class HelloWorld {
-    public void sayHello(){
+
+    public void sayHello() {
         System.out.println("Hello World!!!!");
     }
+
 }
